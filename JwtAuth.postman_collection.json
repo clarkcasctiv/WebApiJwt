@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "0e5c4fe7-c12a-4ece-8acc-0381c1f7df71",
+		"name": "JwtAuth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"_postman_id": "9208fea7-6fa0-4e87-b418-749554176fda",
+			"name": "http://localhost:62893/Account/Register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Email\": \"pujan@gmail.com\",\n\t\"Password\": \"SomeSecurePassword123!\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:62893/Account/Register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62893",
+					"path": [
+						"Account",
+						"Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "92ceb736-b649-4d05-b1ab-b1ac38439e68",
+			"name": "http://localhost:62893/Account/Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwdWphbkBnbWFpbC5jb20iLCJqdGkiOiJmMWI0MTg0Yy1mZGU5LTQyZTEtOGE3OS03ZDEyYmZhY2YxZWUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImNhNzI5NTNhLThmYmUtNDI4MC1iZTRmLTc1YzRkYWEwZTQ1ZiIsImV4cCI6MTUzNjMxOTI5MSwiaXNzIjoiaHR0cDovL3lvdXJkb21haW4uY29tIiwiYXVkIjoiaHR0cDovL3lvdXJkb21haW4uY29tIn0.8cHoxuQy-nqCD_H-Z7Nw4MSyIL-6J0DuBlRrB27sCzg"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Email\": \"pujan@gmail.com\",\n\t\"Password\": \"SomeSecurePassword123!\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:62893/Account/Login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62893",
+					"path": [
+						"Account",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "a1508cac-02b4-4ef3-9770-534346cb2aa9",
+			"name": "http://localhost:62893/Account/Protected",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwdWphbkBnbWFpbC5jb20iLCJqdGkiOiI1MWUzMGI4Zi1mMWY4LTQ5ZGUtYmFjZS02YjE5NTc2MWFiYzQiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImNhNzI5NTNhLThmYmUtNDI4MC1iZTRmLTc1YzRkYWEwZTQ1ZiIsImV4cCI6MTUzNjMxOTU3OSwiaXNzIjoiaHR0cDovL3lvdXJkb21haW4uY29tIiwiYXVkIjoiaHR0cDovL3lvdXJkb21haW4uY29tIn0.75rvnAdcgNQzG9Lsh9uycOsIDVqmLxG4hmBEPcMRMAM"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:62893/Account/Protected",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62893",
+					"path": [
+						"Account",
+						"Protected"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

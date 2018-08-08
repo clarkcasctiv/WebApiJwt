@@ -1,0 +1,12 @@
+D:\PUJAN pc\C# projects\WebApiJwt\bin\Debug\netcoreapp2.0\WebApiJwt.deps.json
+D:\PUJAN pc\C# projects\WebApiJwt\bin\Debug\netcoreapp2.0\WebApiJwt.runtimeconfig.json
+D:\PUJAN pc\C# projects\WebApiJwt\bin\Debug\netcoreapp2.0\WebApiJwt.runtimeconfig.dev.json
+D:\PUJAN pc\C# projects\WebApiJwt\bin\Debug\netcoreapp2.0\WebApiJwt.dll
+D:\PUJAN pc\C# projects\WebApiJwt\bin\Debug\netcoreapp2.0\WebApiJwt.pdb
+D:\PUJAN pc\C# projects\WebApiJwt\obj\Debug\netcoreapp2.0\WebApiJwt.csprojAssemblyReference.cache
+D:\PUJAN pc\C# projects\WebApiJwt\obj\Debug\netcoreapp2.0\WebApiJwt.csproj.CoreCompileInputs.cache
+D:\PUJAN pc\C# projects\WebApiJwt\obj\Debug\netcoreapp2.0\WebApiJwt.AssemblyInfoInputs.cache
+D:\PUJAN pc\C# projects\WebApiJwt\obj\Debug\netcoreapp2.0\WebApiJwt.AssemblyInfo.cs
+D:\PUJAN pc\C# projects\WebApiJwt\obj\Debug\netcoreapp2.0\WebApiJwt.dll
+D:\PUJAN pc\C# projects\WebApiJwt\obj\Debug\netcoreapp2.0\WebApiJwt.pdb
+D:\PUJAN pc\C# projects\WebApiJwt\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
